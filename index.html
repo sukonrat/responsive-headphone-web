@@ -22,79 +22,123 @@
     <title>Document</title>
   </head>
   <body>
-      <!-- =================== HEADER =================== -->
-      <header class="header" id="header">
-          <nav class="nav container">
-              <a href="#" class="nav-logo">
-                  <img src="/assets/img/logo.png" alt="">
+    <!-- =================== HEADER =================== -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav-logo">
+          <img src="/assets/img/logo.png" alt="" />
+        </a>
+        <div class="nav-menu" id="nav_menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#specs" class="nav-link">Specs</a>
+            </li>
+            <li class="nav-item">
+              <a href="#case" class="nav-link">Case</a>
+            </li>
+            <li class="nav-item">
+              <a href="#products" class="nav-link">Products</a>
+            </li>
+          </ul>
+
+          <div class="nav-close" id="nav_close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav-toggle" id="nav_toggle">
+          <i class="ri-function-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- =================== HOME =================== -->
+      <section class="home section grid" id="home">
+        <div class="home-container container grid">
+          <div>
+            <img src="/assets/img/home.png" alt="" class="home-img" />
+          </div>
+
+          <div class="home-data">
+            <div class="home-header">
+              <h1 class="home-title">On ear</h1>
+              <h2 class="home-subtitle">Beats 3</h2>
+            </div>
+
+            <div class="home-footer">
+              <h3 class="home-title-description">Overview</h3>
+              <p class="home-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                dolores praesentium voluptatum debitis architecto deserunt
+                consequuntur alias id dignissimos, et beatae, nemo voluptates
+                rem placeat suscipit! Recusandae incidunt ipsam asperiores!
+              </p>
+              <a href="#" class="button button--flex">
+                <span class="button--flex">
+                  <i class="ri-shopping-bag-line button-icon"></i> Add to cart
+                </span>
+                <span class="home-price">$299</span>
               </a>
-              <div class="nav-menu" id="nav_menu">
-                  <ul class="nav-list">
-                      <li class="nav-item">
-                          <a href="#home" class="nav-link">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#specs" class="nav-link">Specs</a> 
-                    </li>
-                    <li class="nav-item">
-                        <a href="#case" class="nav-link">Case</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#products" class="nav-link">Products</a>
-                    </li>
-                  </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                  <div class="nav-close" id="nav_close">
-                    <i class="ri-close-line"></i>
-                  </div>
-              </div>
+      <!-- =================== SPONSOR =================== -->
+      <section class="sponsor section grid">
+        <div class="sponsor-container container grid">
+          <img src="/assets/img/sponsor1.png" alt="" class="sponsor-img" />
+          <img src="/assets/img/sponsor2.png" alt="" class="sponsor-img" />
+          <img src="/assets/img/sponsor3.png" alt="" class="sponsor-img" />
+          <img src="/assets/img/sponsor4.png" alt="" class="sponsor-img" />
+        </div>
+      </section>
 
-              <div class="nav-toggle" id="nav_toggle">
-                <i class="ri-function-line"></i>
-              </div>
-          </nav>
-      </header>
+      <!-- =================== SPEC =================== -->
+      <section class="specs section grid" id="specs">
+        <h2 class="section-title section-title-gradient">Specs</h2>
 
-      <main class="main">
-           <!-- =================== HOME =================== -->
-           <section class="home section" id="home">
-               <div class="home-container container grid">
-                   <div>
-                       <img src="/assets/img/home.png" alt="" class="home-img">
-                   </div>
+        <div class="specs-container container grid">
+          <div class="specs-content grid">
+            <div class="specs-data">
+              <i class="ri-bluetooth-line specs-icon"></i>
+              <h3 class="specs-title">Connection</h3>
+              <span class="specs-subtitle">Bluetooth v5.2</span>
+            </div>
 
-                   <div class="home-data">
-                       <div class="home-header">
-                           <h1 class="home-title">On ear</h1>
-                           <h2 class="home-subtitle">Beats 3</h2>
-                       </div>
+            <div class="specs-data">
+              <i class="ri-battery-charge-line specs-icon"></i>
+              <h3 class="specs-title">Battery</h3>
+              <span class="specs-subtitle">Duration 40h</span>
+            </div>
 
-                       <div class="home-footer">
-                           <h3 class="home-title-description">Overview</h3>
-                           <p class="home-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dolores praesentium voluptatum debitis architecto deserunt consequuntur alias id dignissimos, et beatae, nemo voluptates rem placeat suscipit! Recusandae incidunt ipsam asperiores!</p>
-                        <a href="#" class="button button--flex">
-                            <span class="button--flex">
-                                <i class="ri-shopping-bag-line button-icon"></i> Add to cart
-                            </span>
-                            <span class="home-price">$299</span>
-                        </a>
-                        </div>
-                   </div>
-               </div>
-           </section>
+            <div class="specs-data">
+              <i class="ri-plug-line specs-icon"></i>
+              <h3 class="specs-title">Load</h3>
+              <span class="specs-subtitle">Fast charge 4.2-AAC</span>
+            </div>
 
-           <!-- =================== SPONSOR =================== -->
-           <section class="sponsor section">
-                <div class="sponsor-container container grid">
-                    <img src="/assets/img/sponsor1.png" alt="" class="sponsor-img">
-                    <img src="/assets/img/sponsor2.png" alt="" class="sponsor-img">
-                    <img src="/assets/img/sponsor3.png" alt="" class="sponsor-img">
-                    <img src="/assets/img/sponsor4.png" alt="" class="sponsor-img">
+            <div class="specs-data">
+              <i class="ri-mic-line specs-icon"></i>
+              <h3 class="specs-title">Microphone</h3>
+              <span class="specs-subtitle"
+                >Support apple Siri <br />
+                and google
+              </span>
+            </div>
+          </div>
 
-                </div>
-           </section>
-      </main>
-     
+          <div>
+            <img src="/assets/img/specs.png" alt="" class="specs-img" />
+          </div>
+        </div>
+      </section>
+    </main>
+
     <!-- =================== MAIN JS =================== -->
     <script src="assets/js/main.js"></script>
   </body>
