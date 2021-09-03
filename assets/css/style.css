@@ -353,3 +353,24 @@ font-size: 1.2rem;
   top: 2rem;
   right: -4rem;
 }
+
+/* =================== CASE  =================== */
+.case-container {
+  position: relative;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.case-data {
+  padding: 5rem 0 3rem;
+}
+
+.case-img {
+  width: 250px;
+  position: absolute;
+  left: -7rem;
+}
+
+.case-description{
+  margin-bottom: var(--mb-1-5);
+  line-height: var(--text-line-height);
+}
